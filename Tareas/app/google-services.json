@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "979520310842",
+    "project_id": "tareas-67423",
+    "storage_bucket": "tareas-67423.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:979520310842:android:39a72828d5828ae76fef03",
+        "android_client_info": {
+          "package_name": "com.escuela.tareas"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6i5AyZgUQ_FM1X0angW3TTgobpyYNa0I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

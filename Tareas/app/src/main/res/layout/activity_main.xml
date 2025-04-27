@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:visibility="visible"
+    android:gravity="center">
+
+    <EditText
+        android:id="@+id/textNuevaTarea"
+        android:layout_width="354dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="100dp"
+        android:hint="Nueva tarea"
+        android:visibility="visible" />
+
+    <Button
+        android:id="@+id/botonAgregarTarea"
+        android:layout_width="234dp"
+        android:layout_height="wrap_content"
+        android:text="Agregar tarea" />
+
+
+    <TextView
+        android:id="@+id/textPuntos"
+        android:layout_width="358dp"
+        android:layout_height="wrap_content"
+        android:text="Puntos: "
+        android:textColor="#FF9800"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="358dp"
+        android:layout_height="wrap_content"
+        android:text="Lista de tareas:"
+        android:textColor="#FF9800"
+        android:textStyle="bold" />
+
+    <ListView
+        android:id="@+id/listaTareas"
+        android:layout_width="match_parent"
+        android:layout_height="458dp" />
+
+    <Button
+        android:id="@+id/botonSalir"
+        android:layout_width="116dp"
+        android:layout_height="wrap_content"
+        android:background="#66bfbf"
+        android:backgroundTint="#368787"
+        android:text="Salir" />
+
+</LinearLayout>
